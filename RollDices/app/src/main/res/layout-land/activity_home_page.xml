@@ -11,13 +11,10 @@
         android:layout_height="495dp"
         android:gravity="center"
         android:orientation="vertical"
-        tools:ignore="MissingConstraints"
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="8dp"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="8dp">
 
@@ -26,25 +23,25 @@
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
+            android:background="@color/colorPrimaryDark"
             android:gravity="center"
-            android:text="@string/dice_6"
-            android:background="@color/colorPrimaryDark"/>
+            android:text="@string/dice_6" />
 
         <Button
             android:id="@+id/dice20"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:text="@string/dice_20"
-            android:background="@color/colorPrimaryDark"/>
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/dice_20" />
 
         <Button
             android:id="@+id/twoDice6"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:text="@string/twoDice6"
-            android:background="@color/colorPrimaryDark"/>
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/twoDice6" />
 
 
     </LinearLayout>
