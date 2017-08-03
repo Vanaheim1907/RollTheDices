@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RollDices</string>
+    <string name="dice_20">Dé 20</string>
+    <string name="dice_6">Dé 6</string>
+    <string name="twoDice6">2 dés 6</string>
+</resources>
